@@ -3,12 +3,13 @@ import Popular from "../components/Popular";
 
 import React from 'react'
 
-function home() {
+function Home() {
   return (
     <div>
-      
+      <Veggie />
+      <Popular />
     </div>
   )
 }
 
-export default home
+export default Home;
